@@ -1,0 +1,2 @@
+D:\_Git\CS\PhotoListCreatorNet9\bin\Release\net9.0\win-x64\publish\PhotoListCreatorNet9.pdb
+D:\_Git\CS\PhotoListCreatorNet9\bin\Release\net9.0\win-x64\publish\PhotoListCreatorNet9.exe

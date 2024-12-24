@@ -1,0 +1,14 @@
+D:\_Git\CS\PhotoListCreatorNet9\bin\Debug\net9.0\PhotoListCreatorNet9.exe
+D:\_Git\CS\PhotoListCreatorNet9\bin\Debug\net9.0\PhotoListCreatorNet9.deps.json
+D:\_Git\CS\PhotoListCreatorNet9\bin\Debug\net9.0\PhotoListCreatorNet9.runtimeconfig.json
+D:\_Git\CS\PhotoListCreatorNet9\bin\Debug\net9.0\PhotoListCreatorNet9.dll
+D:\_Git\CS\PhotoListCreatorNet9\bin\Debug\net9.0\PhotoListCreatorNet9.pdb
+D:\_Git\CS\PhotoListCreatorNet9\obj\Debug\net9.0\PhotoListCreatorNet9.GeneratedMSBuildEditorConfig.editorconfig
+D:\_Git\CS\PhotoListCreatorNet9\obj\Debug\net9.0\PhotoListCreatorNet9.AssemblyInfoInputs.cache
+D:\_Git\CS\PhotoListCreatorNet9\obj\Debug\net9.0\PhotoListCreatorNet9.AssemblyInfo.cs
+D:\_Git\CS\PhotoListCreatorNet9\obj\Debug\net9.0\PhotoListCreatorNet9.csproj.CoreCompileInputs.cache
+D:\_Git\CS\PhotoListCreatorNet9\obj\Debug\net9.0\PhotoListCreatorNet9.dll
+D:\_Git\CS\PhotoListCreatorNet9\obj\Debug\net9.0\refint\PhotoListCreatorNet9.dll
+D:\_Git\CS\PhotoListCreatorNet9\obj\Debug\net9.0\PhotoListCreatorNet9.pdb
+D:\_Git\CS\PhotoListCreatorNet9\obj\Debug\net9.0\PhotoListCreatorNet9.genruntimeconfig.cache
+D:\_Git\CS\PhotoListCreatorNet9\obj\Debug\net9.0\ref\PhotoListCreatorNet9.dll
