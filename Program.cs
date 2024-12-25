@@ -7,28 +7,28 @@ class Program
     {
         string currentDirectory = AppDomain.CurrentDomain.BaseDirectory;
         string rootFolder = Path.GetDirectoryName(currentDirectory) ?? throw new InvalidOperationException
-        ("Не удалось определить корневую папку.");
+        ("No root folder.");
 
 
         string[] jpgFiles = Directory.GetFiles(rootFolder, "*.jpg", SearchOption.TopDirectoryOnly);
 
-        string outputFile = Path.Combine(rootFolder, "Список фотографий.txt");
+        string outputFile = Path.Combine(rootFolder, "PhotoList.txt");
 
-        using (StreamWriter writer = new StreamWriter(outputFile))
+        using (var writer = new StreamWriter(outputFile))
         {
             int i = 1;
             foreach (string jpgFile in jpgFiles)
             {
                 string fileName = Path.GetFileName(jpgFile);
-                fileName = i + ". " + fileName.Substring(0, fileName.Length - 4);
+                fileName = $"{i}. {fileName[..^4]}";
                 writer.WriteLine(fileName);
                 i++;
             }
         }
 
-        Console.WriteLine("Список файлов с расширением .jpg сохранен в файле Список фотографий.txt.");
-        // Ожидание ввода от пользователя перед завершением программы
-        Console.WriteLine("Нажмите любую клавишу для завершения...");
+        Console.WriteLine("List of .jpg files saved in PhotoList.txt.");
+        // Waiting for user input before program terminat
+        Console.WriteLine("Press any key to complete...");
         Console.ReadLine();
     }
 }
