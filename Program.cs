@@ -32,3 +32,6 @@ class Program
         Console.ReadLine();
     }
 }
+// Публикация приложения:
+// dotnet publish -c Release -r win-x64 --no-self-contained -p:PublishSingleFile=true  # Для 64 битных систем 
+// dotnet publish -c Release -r win-x86 --no-self-contained -p:PublishSingleFile=true  # Для 32 и 64 битных систем
